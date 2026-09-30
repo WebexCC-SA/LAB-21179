@@ -94,8 +94,8 @@ nav:
       - Lab 3: lab-3-create-a-new-autonomous-ai-agent.md
       - Lab 4: lab-4-using-the-ai-agent-in-a-flow-sms.md
       # - Lab 1 - Getting Started: lab1_getting_started.md
-      - Conclusion: conclusion.md
-  - Topologies: topologies.md
+      # - Conclusion: conclusion.md
+  # - Topologies: topologies.md
   - How to use this guide:
       - Setting up and using the tool:
         - Initial Setup: howToUse/initialSetup.md

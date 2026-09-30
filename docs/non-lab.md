@@ -84,9 +84,7 @@ There are services already created as a place to complete the labs.
 
 This is the list of Services that are set up in our Group and Team. Use your designated Student Number as a repository for your flows.
 
-![A screenshot of a calendar
-
-AI-generated content may be incorrect.](assets/docx-image-004.png)
+![A screenshot of a calendar AI-generated content may be incorrect.](assets/docx-image-004.png)
 
 Double Click to open your service. You will see the following screen:
 
