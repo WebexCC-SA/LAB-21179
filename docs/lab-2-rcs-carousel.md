@@ -5,32 +5,32 @@ We start this lab the same way as we did the previous one.
 Start the flow off by Clicking “Create Flow” in your Service
 
 Configure the flow as follows except add a V2 after the word “Flow”:
-
-![](assets/docx-image-013.png)
+!!! frame w75 ""
+    ![](assets/docx-image-013.png)
 
 Click “Create”
 
 When the Trigger Page displays choose “Webhook” under the “Custom” section.
-
-![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-014.png)
+!!! frame w75 ""
+    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-014.png)
 
 When the Flow Canvas comes up, double click the Webhook Trigger Node to open it and configure it as follows:
 
 Create New Event {Select this option}
 
 Paste the payload below into the “Provide Sample Input” area.
-
-```json
-{
-"phone": "15615551212",
-"imageURL": "http://mywebsite.com/image.jpg",
-"msg": "Here is my message to be delivered"
-}
-```
+!!! frame w75 ""
+    ```json
+    {
+    "phone": "15615551212",
+    "imageURL": "http://mywebsite.com/image.jpg",
+    "msg": "Here is my message to be delivered"
+    }
+    ```
 
 Click “Parse” to parse the variables from the payload.
-
-![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-015.png)
+!!! frame w75 ""
+    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-015.png)
 
 The next step is to drag and drop an RCS Capability node from the Node Pallet to the right of the Trigger node.
 
@@ -41,8 +41,8 @@ MSISDN: {Expand the “Start” variables on the right and making sure the curso
 You can leave the rest of the fields blank.
 
 Click “Save”
-
-![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-016.png)
+!!! frame w75 ""
+    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-016.png)
 
 Click “Save”
 
@@ -64,4 +64,5 @@ X`
 
 Drag the RCS Message node from the Node Pallet to the right of the Branch node and connect them, using the Branch1 Event, double click the RCS Message node to open it and configure it as follows:
 
-![](assets/docx-image-017.png)
+!!! frame w75 ""
+    ![](assets/docx-image-017.png)
