@@ -96,6 +96,7 @@ nav:
       # - Lab 1 - Getting Started: lab1_getting_started.md
       # - Conclusion: conclusion.md
   # - Topologies: topologies.md
+  - Cheat Sheet: cheatSheet.md
   - How to use this guide:
       - Setting up and using the tool:
         - Initial Setup: howToUse/initialSetup.md
