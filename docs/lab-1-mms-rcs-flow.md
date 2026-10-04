@@ -1,5 +1,11 @@
 # Lab 1 MMS/RCS Flow
 
+
+<copy>MMS and RCS MT Flow</copy>
+
+
+
+
 The final lab today is an MMS/RCS flow. The flow will send out a simple MMS or RCS message depending on the capability of the end user phone.
 
 Start the flow off by Clicking “Create Flow” in your Service

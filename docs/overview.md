@@ -13,21 +13,27 @@ You will learn how to:
 
 # Requirements
 
-The table below outlines the requirements for this preconfigured lab.
+You will need a **US Based Mobile Phone** to fully participate in this lab.  If you do not have a **US Based Mobile Phone** you can still build the flows, but you will not be able to test your flows.
 
-| REQUIRED | OPTIONAL |
-|: --- :|: --- :|
-| Computer with internet access | Computer with internet access |
-| Mobile Phone w/ US Service | Mobile Phone w/ US Service |
-
-
+---
 
 # Getting started
+
+## Let's Get Logged In
+The labs will be split across two different tenants, with the first three exercises using these credentials.
+> Launch [Webex Connect](https://naenterprise.us.webexconnect.io){:target="_blank"}  
+> User Name: <copy><w class="nae_admin"></w></copy>  
+> Password: <copy><w class="nae_pw"></w></copy>  
+>
+> ---
+
 There are services already created as a place to complete the labs.
 This is the list of Services that are set up in our Group and Team. Use your designated Student Number as a repository for your flows.
 !!! frame w75 ""
     ![A screenshot of a calendar AI-generated content may be incorrect.](assets/docx-image-004.png)  
  
+
+
 
 Double Click to open your service. You will see the following screen:
 !!! frame w75 ""

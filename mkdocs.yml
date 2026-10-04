@@ -86,9 +86,13 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
-  - Welcome: welcome.md
+  - Welcome: 
+      - Welcome: welcome.md
+      - Confirm the lab setup: confirmSettings.md
   - Lab:
       - Overview: overview.md
+      - "Exercise 1: A New Flow": basicRCS.md
+      - "Exercise 2: The Testing Strikes Back": exercise2.md
       - Lab 1: lab-1-mms-rcs-flow.md
       - Lab 2: lab-2-rcs-carousel.md
       - Lab 3: lab-3-create-a-new-autonomous-ai-agent.md
