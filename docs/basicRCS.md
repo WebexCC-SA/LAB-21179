@@ -28,7 +28,6 @@ In your Service: Student <w class="pod"></w>
     ```json
     {
     "phone": "15615551212",
-    "imageURL": "http://mywebsite.com/image.jpg",
     "msg": "Here is my message to be delivered"
     }
     ```
@@ -72,9 +71,12 @@ In your Service: Student <w class="pod"></w>
 > When prompted, select **Branch1**  
 > Double click the new node to configure it   
 > > Destination: Add the variable path for **inboundWebhook.phone**  
-> > Message Type: Text  
-> > Message Configuration: Add the variable path for **inboundWebhook.msg**  
-> > While still in the textbox for message configuration add a space and then backspace to delete it.  
+> > Message Type: Rich Card  
+> > Media URL: <copy>https://qaemailmedia.s3.amazonaws.com/2dfadf61-9978-47dd-8a54-766f69c7e6d6/Your-Kittens-First-Year-Header_145741850115578.png</copy>  
+> > Thumbnail URL: <copy>https://qaemailmedia.s3.amazonaws.com/2dfadf61-9978-47dd-8a54-766f69c7e6d6/Your-Kittens-First-Year-Header_145741850115578.png</copy>  
+> > Title: <copy>Welcome to the lab!</copy>  
+> > Description: Add the variable path for **inboundWebhook.msg**  
+> > While still in the textbox for Description, add a space and then backspace to delete it.  
 >
 > Click Save  
 > 
@@ -89,10 +91,10 @@ In your Service: Student <w class="pod"></w>
 > > While still in the textbox for message configuration add a space and then backspace to delete it.   
 > > From Number: +16693323847  
 >>  MMS Message Subject: <copy>RCS not enabled for this device</copy>  
-> > Media Type: Text  
+> > Media Type: Image  
 >>  Media URL: <copy>https://qaemailmedia.s3.amazonaws.com/2dfadf61-9978-47dd-8a54-766f69c7e6d6/sadKitty_239352025917078.jpg</copy>  
 > > Message: Add the variable path for **inboundWebhook.msg**  
-> > While still in the textbox for message configuration add a space and then backspace to delete it.  
+> > While still in the textbox for message, add a space and then backspace to delete it.  
 >
 > Click Save  
 > 
@@ -107,5 +109,15 @@ In your Service: Student <w class="pod"></w>
 > ---
 
 ## Time to Test
+> Enter your Mobile number and a test message into the form below, then click the Send Test button  
+>> You should either receive an MMS message or an RCS message depending on what your device + carrier support.  
 
+<form id="testing" onsubmit="sendTest(event)">
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br>
 
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="message" required><br>
+    <button type="submit">Send Test</button>
+    <output role="status" aria-live="polite"></output>
+    </form>

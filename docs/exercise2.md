@@ -32,9 +32,37 @@ In this exercise you will be fortifying your flow to make testing the MMS functi
 > Click Save  
 > ---
 
+## Connect the new Branch node
+> Connect the green output node edge from the Branch node to the MMS node and select **Branch1** when prompted  
+> Connect the green output node edge from the Branch node to the RCS Capability node (None of the above should be automatically applied)  
+> Save and Publish the flow  
+> ---
+
+## Time to Test
+> Enter your Mobile number and a test message into the appropriate boxes, then select Force MMS to true.  
+>> You should receive an MMS message even if your device is RCS enabled.  
+>
+> Now switch the the Force MMs dropdown to false and test again.  
+>> Your results should be the same as the previous exercise. 
 
 
+<form id="testing" onsubmit="sendTest(event)">
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br>
 
-ForceMMS: true
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="message" required><br>
 
-https://qaemailmedia.s3.amazonaws.com/2dfadf61-9978-47dd-8a54-766f69c7e6d6/sadKitty_239352025917078.jpg
+    <label for="forceMMS">Force MMS:</label>
+    <select id="forceMMS" name="forceMMS" onChange="setItem(this.id,this.value)">
+    <option value = false>false</option>
+    <option value = true>true</option>
+    
+    </select><br>
+    <!-- <input type="select" id="forceMMS" name="forceMMS" required><br> -->
+
+
+    <button type="submit">Send Test</button>
+    <output role="status" aria-live="polite"></output>
+    </form>
+

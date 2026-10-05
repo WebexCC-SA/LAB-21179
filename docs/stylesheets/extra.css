@@ -65,3 +65,14 @@ copy{
 copy:hover{
       color: #00bdeb;
 }
+form#testing input{
+  border: solid 1px;
+}
+form#testing button{
+    border:solid 2px;
+    border-radius: 25px;
+    padding: 10px;
+}
+form#testing button:hover{
+    background-color:rgb(195, 193, 201);
+}
