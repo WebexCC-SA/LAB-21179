@@ -22,7 +22,7 @@ In your Service: Student <w class="pod"></w>
 
 ## Configuring the Webhook
 > Select: Create new event  
-> Name: <copy>Wx1_26_Student_<w class="pod"></w></copy>  
+> Name: <copy>Wx1_26_Student_<w class="POD"></w></copy>  
 > In the **PROVIDE SAMPLE INPUT** area paste the following JSON:
 !!! code w50 "&nbsp;"
     ```json

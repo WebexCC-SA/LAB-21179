@@ -1,6 +1,6 @@
 # Overview
 
-This lab introduces creating intermediate to advanced flows in the Webex Connect CPaaS Platform. We will be creating and iterating on a flows that will showcase Rich Communication Channel functionality including Rich Cards and MMS. 
+This lab introduces creating intermediate to advanced flows in the Webex Connect CPaaS Platform. We will be creating and iterating on a flow that will showcase Rich Communication Channel functionality including Rich Cards and MMS. 
 
 <!-- You will learn how to:
 
