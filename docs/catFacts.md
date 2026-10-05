@@ -82,7 +82,7 @@ It is time to bring some external data into your flow.
 > Condition: Contains ignore case  
 > Value: <copy>yes</copy>  
 > Click the OR button and do the same for the other Receive node  
-> Click the OR button AGAIN and Evaluate the Variable of **rcs.postbackData** on the RCS receive node  
+> Click the OR button AGAIN and Evaluate the Variable of **rcs.text** on the RCS receive node  
 > Condition: Contains ignore case  
 > Value: <copy>yes</copy> 
 > Connect the Branch1 output to the HTTP Request node
