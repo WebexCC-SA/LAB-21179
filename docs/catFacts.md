@@ -7,7 +7,7 @@ It is time to bring some external data into your flow.
 ## Update the Branch node which evaluates RCS Capability  
 > Open the Branch node
 > Click the AND button  
-> Set the variable to point to inboundWebhook.forceMMS by selecting it from the Input Variables  
+> Set the variable to point to **inboundWebhook.forceMMS** by selecting it from the Input Variables  
 > Condition: Not equals  
 > Value: true  
 > Click Save  
@@ -48,6 +48,13 @@ It is time to bring some external data into your flow.
 
 ## Delete the RCS Message node and the MMS node which are connected to the output of the receive nodes  
 
+# Edit the Receive node after the RCS Message node
+> Click Add Another RCS Event  
+> Select: **Postback Response**  
+> Click Save
+>
+> ---
+
 ## Update the RCS Message node
 > Media URL: <copy>https://qaemailmedia.s3.amazonaws.com/2dfadf61-9978-47dd-8a54-766f69c7e6d6/surprised-cat-hydrocephalus-kevin-theadventuresofkev30_348966441740267.png</copy>  
 > Thumbnail URL: <copy>https://qaemailmedia.s3.amazonaws.com/2dfadf61-9978-47dd-8a54-766f69c7e6d6/surprised-cat-hydrocephalus-kevin-theadventuresofkev30_348966441740267.png</copy>  
@@ -75,6 +82,9 @@ It is time to bring some external data into your flow.
 > Condition: Contains ignore case  
 > Value: <copy>yes</copy>  
 > Click the OR button and do the same for the other Receive node  
+> Click the OR button AGAIN and Evaluate the Variable of **rcs.postbackData** on the RCS receive node  
+> Condition: Contains ignore case  
+> Value: <copy>yes</copy> 
 > Connect the Branch1 output to the HTTP Request node
 >
 > ---
