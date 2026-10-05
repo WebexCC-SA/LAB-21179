@@ -1,14 +1,14 @@
 # Overview
 
-This lab introduces creating intermediate to advanced flows in the Webex Connect CPaaS Platform. We will be creating 3 flows that showcase Rich Communication Channel functionality including Rich Cards and Carousels. We will then complete create a new Autonomous AI Agent and then time permitting create one or two more bonus flows showing off the power of an LLM powered AI Agent.
+This lab introduces creating intermediate to advanced flows in the Webex Connect CPaaS Platform. We will be creating and iterating on a flows that will showcase Rich Communication Channel functionality including Rich Cards and MMS. 
 
-You will learn how to:
+<!-- You will learn how to:
 
 * Create a new flow from scratch
-* Create flows using the RCS Channel including Rich Cards and Carousels
-* Create an Autonomous AI Agent from scratch with a RAG knowledge base
-* Insert business logic
-* Create a flow to interact with above AI Agent
+* Iterate add control logic
+* Create flows using the RCS Channel including Rich Cards
+* Insert business logic -->
+
 ---
 
 # Requirements
