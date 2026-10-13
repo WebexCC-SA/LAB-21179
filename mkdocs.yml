@@ -34,6 +34,9 @@ theme:
   logo: template_assets/webexLogo91.png
   favicon: template_assets/webex75.png
 extra:
+  analytics:
+    provider: google
+    property: G-EWYZYS1K7E
   generator: false
   repo: "https://github.com/WebexCC-SA/LAB-21179.git"
   site_event: test
